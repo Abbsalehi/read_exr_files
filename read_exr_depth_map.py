@@ -15,7 +15,7 @@ def read_exr(file_path):
     # Read the pixel data for each channel
     rgb_data = {}
     for channel in channels:
-        rgb_data[channel] = np.fromstring(exr_file.channel(channel), dtype=np.float32)
+        rgb_data[channel] = np.frombuffer(exr_file.channel(channel), dtype=np.float32)
 
     # Reshape the data
     for channel in channels:
