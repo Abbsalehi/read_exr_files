@@ -22,9 +22,9 @@ pip install OpenEXR
 1. Clone the repository:
 
 ```bash 
-git clone https://github.com/Abbsalehi/read_metashape_exr_files.git
+git clone https://github.com/Abbsalehi/read_exr_files.git
 ```
 2. Navigate to the repository directory:
 ```bash
-cd read_metashape_exr_files
+cd read_exr_files
 ```
