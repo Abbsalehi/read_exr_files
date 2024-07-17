@@ -1,5 +1,6 @@
 
 import OpenEXR
+import numpy
 
 def read_exr(file_path):
     exr_file = OpenEXR.InputFile(file_path)
