@@ -1,4 +1,4 @@
-## Reading ".exr" depth maps format
+## Reading ".exr" format
 This repository provides only a Python file for reading files in ".exr" format.
 
 ## Installation
