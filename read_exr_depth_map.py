@@ -1,6 +1,6 @@
 
 import OpenEXR
-import numpy
+import numpy as np
 
 def read_exr(file_path):
     exr_file = OpenEXR.InputFile(file_path)
@@ -29,7 +29,7 @@ PATH_TO_EXR_FILE= os.path.join(base_dir,'data0/0/d0.exr' )
 
 image_data = read_exr(PATH_TO_EXR_FILE)
 
-# Access channels, here is just Z channel, you may have more channels
+# Access channels: here is just Z channel; you may have more channels
 #use image_data.keys() to see the channels names
 
 data = image_data['Z']
