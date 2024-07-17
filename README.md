@@ -1,5 +1,5 @@
-## Reading [Metashape](https://www.agisoft.com/) ".exr" depth maps format
-This repository provides only a Python file for reading Metashape depth maps in ".exr" format. I hope this helps you to read the text files.
+## Reading ".exr" depth maps format
+This repository provides only a Python file for reading files in ".exr" format.
 
 ## Installation
 
