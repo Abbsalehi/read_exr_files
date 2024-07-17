@@ -1,4 +1,4 @@
-
+import os
 import OpenEXR
 import numpy as np
 
