@@ -8,7 +8,7 @@ To use this repository, you need to install the following dependencies:
 1- numpy: A fundamental package for scientific computing with Python.
 
 
-2- Thanks for the [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr) library that helps to read and write exr files.
+2- Thanks for [OpenEXR](https://github.com/AcademySoftwareFoundation/openexr) library that helps to read and write exr files.
 
 To install these packages, use the following pip commands:
 
